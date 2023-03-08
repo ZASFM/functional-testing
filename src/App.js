@@ -6,9 +6,10 @@ const App = () => {
   return (
     <div className="App">
       <div className="App-body">
+        <div>Todo app</div>
         <Routes>
-          <Route path="/item/:id" element={<TodoItem/>} />
-          <Route path="/" element={<TodoList/>} />
+          <Route path="/item/:id" element={<TodoItem />} />
+          <Route path="/" element={<TodoList />} />
         </Routes>
       </div>
     </div>
